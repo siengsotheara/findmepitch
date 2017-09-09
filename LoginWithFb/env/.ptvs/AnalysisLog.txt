@@ -3540,3 +3540,104 @@ System.FormatException: Input string was not in a correct format.
 2017-09-09T12:09:01: Saving group "C:\Users\Sotheara\Documents\Visual Studio 2015\Projects\LoginWithFb\LoginWithFb\env\Lib\site-packages\sqlalchemy"
 2017-09-09T12:09:04: End of group "C:\Users\Sotheara\Documents\Visual Studio 2015\Projects\LoginWithFb\LoginWithFb\env\Lib\site-packages\sqlalchemy"
 2017-09-09T12:09:04: Deleting 0 files
+
+2017-09-09T12:26:03: Start analysis
+2017-09-09T12:26:03: [WARNING] Library was set explicitly - skipping path detection
+2017-09-09T12:26:03: IncludeModulesFromModulePath = win32com
+2017-09-09T12:26:03: Deleting 0 files
+2017-09-09T12:26:03: astropy.CallDepth = 0
+2017-09-09T12:26:03: matplotlib.CallDepth = 3
+2017-09-09T12:26:03: pandas.CallDepth = 0
+2017-09-09T12:26:03: sympy.CallDepth = 0
+2017-09-09T12:26:03: Start group "D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn" with 40 files
+2017-09-09T12:26:05: Parsing "gunicorn.arbiter" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\arbiter.py")
+2017-09-09T12:26:05: Parsing "gunicorn.argparse_compat" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\argparse_compat.py")
+2017-09-09T12:26:05: Parsing "gunicorn.config" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\config.py")
+2017-09-09T12:26:05: Parsing "gunicorn.debug" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\debug.py")
+2017-09-09T12:26:05: Parsing "gunicorn.errors" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\errors.py")
+2017-09-09T12:26:05: Parsing "gunicorn.glogging" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\glogging.py")
+2017-09-09T12:26:05: Parsing "gunicorn.pidfile" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\pidfile.py")
+2017-09-09T12:26:05: Parsing "gunicorn.reloader" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\reloader.py")
+2017-09-09T12:26:05: Parsing "gunicorn.selectors" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\selectors.py")
+2017-09-09T12:26:05: Parsing "gunicorn.six" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\six.py")
+2017-09-09T12:26:05: Parsing "gunicorn.sock" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\sock.py")
+2017-09-09T12:26:05: Parsing "gunicorn.systemd" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\systemd.py")
+2017-09-09T12:26:05: Parsing "gunicorn.util" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\util.py")
+2017-09-09T12:26:05: Parsing "gunicorn._compat" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\_compat.py")
+2017-09-09T12:26:05: Parsing "gunicorn" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\__init__.py")
+2017-09-09T12:26:05: Parsing "gunicorn.app.base" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\app\base.py")
+2017-09-09T12:26:05: Parsing "gunicorn.app.pasterapp" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\app\pasterapp.py")
+2017-09-09T12:26:05: Parsing "gunicorn.app.wsgiapp" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\app\wsgiapp.py")
+2017-09-09T12:26:05: Parsing "gunicorn.app" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\app\__init__.py")
+2017-09-09T12:26:05: Parsing "gunicorn.http.body" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\http\body.py")
+2017-09-09T12:26:05: Parsing "gunicorn.http.errors" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\http\errors.py")
+2017-09-09T12:26:05: Parsing "gunicorn.http.message" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\http\message.py")
+2017-09-09T12:26:05: Parsing "gunicorn.http.parser" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\http\parser.py")
+2017-09-09T12:26:05: Parsing "gunicorn.http.unreader" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\http\unreader.py")
+2017-09-09T12:26:05: Parsing "gunicorn.http.wsgi" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\http\wsgi.py")
+2017-09-09T12:26:05: Parsing "gunicorn.http._sendfile" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\http\_sendfile.py")
+2017-09-09T12:26:05: Parsing "gunicorn.http" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\http\__init__.py")
+2017-09-09T12:26:05: Parsing "gunicorn.instrument.statsd" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\instrument\statsd.py")
+2017-09-09T12:26:05: Parsing "gunicorn.instrument" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\instrument\__init__.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.async" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\async.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.base" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\base.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.gaiohttp" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\gaiohttp.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.geventlet" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\geventlet.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.ggevent" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\ggevent.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.gthread" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\gthread.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.gtornado" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\gtornado.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.sync" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\sync.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers.workertmp" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\workertmp.py")
+2017-09-09T12:26:05: Parsing "gunicorn.workers._gaiohttp" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\_gaiohttp.py")
+2017-09-09T12:26:05: [WARNING] File "D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\_gaiohttp.py" contained parse errors
+2017-09-09T12:26:05: (84,23) - (84,27) invalid syntax
+(93,24) - (93,28) invalid syntax
+(121,23) - (121,27) invalid syntax
+(129,15) - (129,19) invalid syntax
+2017-09-09T12:26:05: Parsing "gunicorn.workers" ("D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn\workers\__init__.py")
+2017-09-09T12:26:05: Parsing complete
+2017-09-09T12:26:05: Analyzing "gunicorn.arbiter"
+2017-09-09T12:26:05: Analyzing "gunicorn.argparse_compat"
+2017-09-09T12:26:05: Analyzing "gunicorn.config"
+2017-09-09T12:26:05: Analyzing "gunicorn.debug"
+2017-09-09T12:26:05: Analyzing "gunicorn.errors"
+2017-09-09T12:26:05: Analyzing "gunicorn.glogging"
+2017-09-09T12:26:05: Analyzing "gunicorn.pidfile"
+2017-09-09T12:26:05: Analyzing "gunicorn.reloader"
+2017-09-09T12:26:05: Analyzing "gunicorn.selectors"
+2017-09-09T12:26:05: Analyzing "gunicorn.six"
+2017-09-09T12:26:05: Analyzing "gunicorn.sock"
+2017-09-09T12:26:05: Analyzing "gunicorn.systemd"
+2017-09-09T12:26:05: Analyzing "gunicorn.util"
+2017-09-09T12:26:05: Analyzing "gunicorn._compat"
+2017-09-09T12:26:05: Analyzing "gunicorn"
+2017-09-09T12:26:05: Analyzing "gunicorn.app.base"
+2017-09-09T12:26:05: Analyzing "gunicorn.app.pasterapp"
+2017-09-09T12:26:05: Analyzing "gunicorn.app.wsgiapp"
+2017-09-09T12:26:05: Analyzing "gunicorn.app"
+2017-09-09T12:26:05: Analyzing "gunicorn.http.body"
+2017-09-09T12:26:05: Analyzing "gunicorn.http.errors"
+2017-09-09T12:26:05: Analyzing "gunicorn.http.message"
+2017-09-09T12:26:05: Analyzing "gunicorn.http.parser"
+2017-09-09T12:26:05: Analyzing "gunicorn.http.unreader"
+2017-09-09T12:26:05: Analyzing "gunicorn.http.wsgi"
+2017-09-09T12:26:05: Analyzing "gunicorn.http._sendfile"
+2017-09-09T12:26:05: Analyzing "gunicorn.http"
+2017-09-09T12:26:05: Analyzing "gunicorn.instrument.statsd"
+2017-09-09T12:26:05: Analyzing "gunicorn.instrument"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.async"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.base"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.gaiohttp"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.geventlet"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.ggevent"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.gthread"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.gtornado"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.sync"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers.workertmp"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers._gaiohttp"
+2017-09-09T12:26:05: Analyzing "gunicorn.workers"
+2017-09-09T12:26:05: Starting analysis of 40 modules
+2017-09-09T12:26:06: Analysis complete
+2017-09-09T12:26:06: Saving group "D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn"
+2017-09-09T12:26:06: End of group "D:\CODE\loginWithFb\LoginWithFb\env\Lib\site-packages\gunicorn"
+2017-09-09T12:26:06: Deleting 0 files
