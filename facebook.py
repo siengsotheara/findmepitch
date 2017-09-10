@@ -6,8 +6,8 @@ import sys
 
 SECRET_KEY = 'development key'
 DEBUG = True 
-FACEBOOK_APP_ID =  '188477911223606' #'159985207843693'
-FACEBOOK_APP_SECRET = '621413ddea2bcc5b2e83d42fc40495de' #'7b111fdeb43cf6889725a849013d387c' #
+FACEBOOK_APP_ID = '188477911223606' 
+FACEBOOK_APP_SECRET = '621413ddea2bcc5b2e83d42fc40495de'
 
 
 app = Flask(__name__)
@@ -28,7 +28,7 @@ facebook = oauth.remote_app('facebook',
 
 @app.route('/')
 def index():
-    return 'Welcome to FindMePitch @2017' 
+    return 'Welcome to FindMePitch' 
 
 
 @app.route('/login')
@@ -46,6 +46,7 @@ def facebook_authorized(resp):
             request.args['error_reason'],
             request.args['error_description']
         )
+    print (resp['access_token'], '')
     session['oauth_token'] = (resp['access_token'], '')
     me = facebook.get('/me')
     return 'Logged in as id=%s name=%s redirect=%s' % \
