@@ -1,1 +1,1 @@
-web: python LoginWithFb\facebook.py
+web: python facebook.py
