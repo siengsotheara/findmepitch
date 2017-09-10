@@ -24,11 +24,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="admin\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="api\facebook.py" />
+    <Compile Include="common\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="findmepitch.py" />
     <Compile Include="api\flask_oauth.py" />
     <Compile Include="api\google.py" />
     <Compile Include="api\tweet.py" />
+    <Compile Include="frontend\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="api\" />
