@@ -5,7 +5,7 @@ import os
 import sys
 
 SECRET_KEY = 'development key'
-DEBUG = True 
+DEBUG = False
 FACEBOOK_APP_ID = '188477911223606' 
 FACEBOOK_APP_SECRET = '621413ddea2bcc5b2e83d42fc40495de'
 

@@ -52,6 +52,7 @@
     <Content Include="Procfile" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
+    <Content Include="runtime.txt" />
     <Content Include="static\openid.png" />
     <Content Include="static\sign-in.png" />
     <Content Include="static\style.css" />
