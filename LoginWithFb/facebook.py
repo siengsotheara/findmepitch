@@ -4,8 +4,8 @@ from flask_oauth import OAuth
 
 SECRET_KEY = 'development key'
 DEBUG = True 
-FACEBOOK_APP_ID = '159985207843693' #'188477911223606'
-FACEBOOK_APP_SECRET ='7b111fdeb43cf6889725a849013d387c' #'621413ddea2bcc5b2e83d42fc40495de'
+FACEBOOK_APP_ID =  '188477911223606' #'159985207843693'
+FACEBOOK_APP_SECRET = '621413ddea2bcc5b2e83d42fc40495de' #'7b111fdeb43cf6889725a849013d387c' #
 
 
 app = Flask(__name__)
@@ -26,7 +26,7 @@ facebook = oauth.remote_app('facebook',
 
 @app.route('/')
 def index():
-    return redirect(url_for('login'))
+    return 'Welcome to FindMePitch @2017' 
 
 
 @app.route('/login')

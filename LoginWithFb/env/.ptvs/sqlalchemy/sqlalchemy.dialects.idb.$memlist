@@ -1,7 +1,7 @@
 firebird
 _translates
 registry
-plugins
+mysql
 util
 sqlite
 mssql
@@ -9,5 +9,5 @@ oracle
 _auto_fn
 postgresql
 __all__
-mysql
+plugins
 sybase

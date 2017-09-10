@@ -27,7 +27,6 @@
     <Compile Include="facebook.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="flask_oauth.py" />
     <Compile Include="google.py" />
     <Compile Include="LoginWithFb.py" />
     <Compile Include="tweet.py" />
@@ -50,6 +49,7 @@
     <Folder Include="templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="requirements.txt" />
     <Content Include="static\openid.png" />
     <Content Include="static\sign-in.png" />
     <Content Include="static\style.css" />
