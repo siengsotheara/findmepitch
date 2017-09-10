@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bc159b08-6a12-43ad-8ef3-d9dcd2a929fc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>findmepitch.py</StartupFile>
+    <StartupFile>api\facebook.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

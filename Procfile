@@ -1,1 +1,1 @@
-web: python api\facebook.py
+web: python --pythonpath api facebook.py

@@ -46,7 +46,7 @@ def facebook_authorized(resp):
             request.args['error_reason'],
             request.args['error_description']
         )
-    print (resp['access_token'], '')
+    #print (resp['access_token'], '')
     session['oauth_token'] = (resp['access_token'], '')
     me = facebook.get('/me')
     return 'Logged in as id=%s name=%s redirect=%s' % \
