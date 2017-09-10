@@ -6,9 +6,8 @@ import sys
 
 SECRET_KEY = 'development key'
 DEBUG = False
-FACEBOOK_APP_ID = '188477911223606' 
-FACEBOOK_APP_SECRET = '621413ddea2bcc5b2e83d42fc40495de'
-
+FACEBOOK_APP_ID = '159985207843693'
+FACEBOOK_APP_SECRET = '7b111fdeb43cf6889725a849013d387c'
 
 app = Flask(__name__)
 app.debug = DEBUG
@@ -22,7 +21,7 @@ facebook = oauth.remote_app('facebook',
     authorize_url='https://www.facebook.com/dialog/oauth',
     consumer_key=FACEBOOK_APP_ID,
     consumer_secret=FACEBOOK_APP_SECRET,
-    request_token_params={'scope': 'email'}
+    request_token_params={'scope': 'email,public_profile,user_friends'}
 )
 
 

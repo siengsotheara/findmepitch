@@ -31,6 +31,9 @@
     <Compile Include="common\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="config.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="findmepitch.py" />
     <Compile Include="api\flask_oauth.py" />
     <Compile Include="api\google.py" />
