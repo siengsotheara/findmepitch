@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath api facebook.py
+web: python api.facebook.py
